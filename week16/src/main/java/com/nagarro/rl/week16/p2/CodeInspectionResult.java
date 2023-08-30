@@ -1,0 +1,8 @@
+package com.nagarro.rl.week16.p2;
+
+public enum CodeInspectionResult {
+    PRIVATE_LOWERCASE_FIELD,
+    PUBLIC_LOWERCASE_METHOD,
+    NON_PRIVATE_FIELD_OR_NON_LOWERCASE_FIELD,
+    NON_PUBLIC_METHOD_OR_NON_LOWERCASE_METHOD,
+}
